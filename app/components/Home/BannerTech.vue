@@ -73,10 +73,6 @@
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     },
     {
-      name: "AWS",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
-    },
-    {
       name: "TypeScript",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
     },
@@ -97,16 +93,8 @@
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
     },
     {
-      name: "WordPress",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
-    },
-    {
       name: "Ubuntu",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-original.svg",
-    },
-    {
-      name: "PHP",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
     },
     {
       name: "Vuetify",
@@ -117,9 +105,17 @@
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
     },
     {
-      name: "AWS Lambda",
-      icon: "https://www.svgrepo.com/show/448267/aws-lambda.svg",
+      name: "React Native",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", 
     },
+    {
+      name: "Kalilinux",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kalilinux/kalilinux-original.svg",
+    },
+    {
+      name: "Google Rank",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg"
+    }
   ];
 </script>
 <style scoped></style>

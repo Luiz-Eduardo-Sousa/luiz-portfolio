@@ -3,7 +3,6 @@
     <v-container>
       <v-row align="center" justify="space-between">
         <v-col cols="auto" class="d-flex align-center">
-          <v-img src="/Planet.png" alt="Logo" width="30" class="mr-2" />
           <h2 class="text-white">Luiz Eduardo</h2>
         </v-col>
 
