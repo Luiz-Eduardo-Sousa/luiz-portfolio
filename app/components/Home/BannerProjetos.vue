@@ -3,7 +3,7 @@
     class="d-flex justify-center"
     style="background-color: #151731; min-height: 100vh"
   >
-    <v-container class="py-1">
+    <v-container class="py-10">
       <v-card
         elevation="6"
         max-width="700"
