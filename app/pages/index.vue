@@ -1,15 +1,15 @@
 <template>
     <HomeBannerBio />
     <HomeBannerTech />
-    <HomeCallToAction
+    <HomeCallToAction />
     <HomeBannerProjetos />
-     <a
+    <a
       href="https://wa.me/5541996037518?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vi%20seu%20Portf%C3%B3lio%20e%20Gostei%20do%20seu%20trabalho!%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es%2C%20Por%20Favor%3F"
       target="_blank"
       class="whatsapp-float"
       aria-label="Converse pelo WhatsApp"
     >
-      <v-img src="/img/whats.png" alt="WhatsApp" width="50"/>
+    <v-img src="/img/whats.png" alt="WhatsApp" width="50"/>
     </a>
 </template>
 

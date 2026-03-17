@@ -8,7 +8,7 @@
         elevation="6"
         max-width="700"
         max-height="340"
-        class="mx-auto mb-8"
+        class="mx-auto mb-8 -mt-20"
         style="background-color: #303569; border: 1px solid #A1A1AA"
       >
         <v-card-title class="text-white text-center"

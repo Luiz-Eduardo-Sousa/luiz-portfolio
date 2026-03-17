@@ -3,7 +3,7 @@
     <v-container>
       <v-row align="center" justify="space-between">
         <v-col cols="auto" class="d-flex align-center">
-          <h2 class="text-white">Luiz Eduardo</h2>
+          <h2 class="text-white"> Luiz Eduardo</h2>
         </v-col>
 
         <!-- Botões para desktop -->

@@ -1,5 +1,5 @@
 <template>
-  <v-footer flat color="#303569" class="text-center text-white py-6">
+  <v-footer flat color="#151731" class="text-center text-white py-6">
     <div class="mx-auto">
       <p class="mb-4 font-semibold">Siga-me nas redes</p>
 
