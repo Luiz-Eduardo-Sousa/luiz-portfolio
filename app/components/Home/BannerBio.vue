@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import ElectricBorder from "../VueBits/EletricBorder.vue";
+</script>
+
 <template>
   <v-main class="d-flex justify-center" style="background-color: #151731; min-height: 100vh">
     <v-row>
@@ -21,10 +25,50 @@
               </v-col>
 
               <v-col cols="12" md="6" class="d-flex justify-center mt-5">
-                <div>
-                  <v-img src="/img/Foto.jpeg" width="200" height="200" class="rounded-circle" cover
-                    style="position: relative; z-index: 1" />
-                </div>
+                <v-card class="pa-8 rounded-xl" color="#111827" theme="dark" max-width="1100">
+
+                  <v-row align="start">
+                    <v-col cols="12" md="12">
+                      <v-sheet class="terminal-window rounded-lg elevation-20" color="#1f2937"
+                        border="cyan-accent-2 sm">
+                        <div class="terminal-header d-flex align-center px-4 py-2 grey-darken-4">
+                          <span class="text-caption text-grey-lighten-1 mono">>_ /~</span>
+                          <v-spacer></v-spacer>
+                          <div class="d-flex g-2">
+                            <v-icon size="small" color="grey">mdi-minus</v-icon>
+                            <v-icon size="small" color="grey">mdi-square-outline</v-icon>
+                            <v-icon size="small" color="grey">mdi-close</v-icon>
+                          </div>
+                        </div>
+
+                        <div class="terminal-body pa-5 mono">
+                          <div class="code-line">
+                            <span class="bracket">{</span>
+                          </div>
+                          <div class="code-line ps-4">
+                            <span class="key">devData</span>: <span class="bracket">{</span>
+                          </div>
+                          <div class="code-line ps-8">
+                            <span class="key">nome</span>: <span class="string">"Luiz Eduardo de Sousa"</span>,
+                          </div>
+                          <div class="code-line ps-8">
+                            <span class="key">stack</span>: [<span class="string">"Vue"</span>, <span
+                              class="string">"Nuxt"</span>, <span class="string">"Vuetify"</span>,],
+                          </div>
+                          <div class="code-line ps-8">
+                            <span class="key">experiencia</span>: <span class="string">"2+ anos"</span>
+                          </div>
+                          <div class="code-line ps-4">
+                            <span class="bracket">}</span>
+                          </div>
+                          <div class="code-line">
+                            <span class="bracket">}</span><span class="cursor">|</span>
+                          </div>
+                        </div>
+                      </v-sheet>
+                    </v-col>
+                  </v-row>
+                </v-card>
               </v-col>
             </v-row>
           </v-card-text>
@@ -38,6 +82,48 @@
     </v-row>
   </v-main>
 </template>
-<script setup lang="ts">
-import ElectricBorder from "../VueBits/EletricBorder.vue";
-</script>
+
+<style scoped>
+
+/* Estilo do Terminal */
+.terminal-window {
+  border: 2px solid #00ffff !important;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4) !important;
+}
+
+.mono {
+  font-family: 'Fira Code', monospace;
+}
+
+.key {
+  color: #a78bfa;
+}
+
+.string {
+  color: #34d399;
+}
+
+.bracket {
+  color: #e5e7eb;
+}
+
+
+.cursor {
+  display: inline-block;
+  background: #00ffff;
+  width: 8px;
+  height: 18px;
+  margin-left: 4px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.leading-relaxed {
+  line-height: 1.8;
+}
+</style>
